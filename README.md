@@ -1,13 +1,13 @@
 JavaScriptLogger
 ================
-Usage:
 
+##Usage
+
+```javascript
 <script type="text/javascript">
    new ErrorsLogger({
        url: '/Error/Log',
-       additionalParams: {
-           version: '1.0.0.0'
-           ...
-       }
+       additionalParams: { ... }
    });
 </script>
+```
